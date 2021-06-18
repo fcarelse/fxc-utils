@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>FXC Utils Demos</title>
+</head>
+<body>
+	<a href="https://github.com/fcarelse/fxc-utils" target="_blank">Link to Repo</a>
+	<fxc-ani-heart size="80"></fxc-ani-heart>
+	<script type="module">
+		import Utils, {extend} from './lib/utils.js'
+		const a = {};
+		extend(a, {name: 'Blah'});
+		const div = document.createElement('div');
+		div.innerHTML = a.name;
+		document.body.appendChild(div);
+
+		const b = {};
+		Utils.extend(b, {name: 'Yay!'});
+		const div2 = document.createElement('div');
+		div2.innerHTML = b.name;
+		document.body.appendChild(div2);
+
+	</script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+{
+  "name": "fxc-utils",
+  "version": "0.1.0",
+  "description": "Zero Dependencies Standalone Native Javascript Utilities",
+  "main": "lib/fxc-utils.js",
+  "scripts": {
+		"start": "npx http-server . -o /",
+    "test": "npx mocha"
+  },
+	"files":[
+		"/lib"
+	],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fcarelse/fxc-utils.git"
+  },
+  "keywords": [
+    "FXC",
+    "Utils",
+    "Utility",
+    "JavaScript",
+    "Zero-Dependencies"
+  ],
+  "author": "Francis Carelse",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fcarelse/fxc-utils/issues"
+  },
+  "homepage": "https://github.com/fcarelse/fxc-utils#readme"
+}
